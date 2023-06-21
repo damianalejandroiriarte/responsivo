@@ -1,0 +1,32 @@
+@media(max-width:580px){
+
+    main{
+        padding: 0px;
+
+        .section{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(6, 1fr);
+            grid-column-gap: 15px;
+            grid-row-gap: 15px;
+            margin-right: 10px;
+
+            &_img{
+                width: 47%;
+                height: auto;
+                margin-left: 152px;
+                margin-top: 88px;
+                border-radius: 22px;
+                transition: 0.3s ease-in-out;
+            }
+
+            &_p{
+                margin-left: 6px;
+                margin-top: 25px;
+                font-size: 12px;
+                text-align: center;
+                font-size: 15px;
+            }
+        }
+    }
+}

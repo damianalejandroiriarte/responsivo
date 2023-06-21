@@ -1,0 +1,38 @@
+.main{
+    width: 100%;
+    margin: 0 auto;
+    
+    &_fondo {
+        background-image: url(../assets/images/patenbrillo.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        
+    }
+
+    &_section{
+        padding: 170px;
+    
+    }
+
+    &_tituloUno{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 150;
+        font-size: 100px;
+        color: $color_negro;
+        
+    
+    }
+
+    &_tituloDos{
+        text-align: center;
+        justify-content: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 150;
+        display: flex;
+        font-size: 80px;
+    }
+}

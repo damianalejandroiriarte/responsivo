@@ -1,0 +1,562 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Open+Sans:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 20px;
+}
+
+.img_logo {
+  width: 22%;
+}
+
+.main {
+  width: 100%;
+  margin: 0 auto;
+}
+.main_fondo {
+  background-image: url(../assets/images/patenbrillo.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.main_section {
+  padding: 170px;
+}
+.main_tituloUno {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 150;
+  font-size: 100px;
+  color: black;
+}
+.main_tituloDos {
+  text-align: center;
+  justify-content: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 150;
+  display: flex;
+  font-size: 80px;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}
+.section_img {
+  width: 47%;
+  height: auto;
+  margin-left: 135px;
+  margin-top: 160px;
+  border-radius: 20px;
+  transition: 0.3s ease-in-out;
+}
+.section_img:hover {
+  filter: opacity(1);
+  transform: scale(1.4);
+}
+.section_p {
+  margin-left: 140px;
+  margin-top: 75px;
+}
+
+.main_pItalic {
+  font-size: 22px;
+  font-style: italic;
+}
+
+.main_contacto {
+  padding: 103px;
+  margin: 201px;
+  text-align: center;
+}
+
+.main_form {
+  padding: 103px;
+  margin: 201px;
+}
+
+.main_pItalic {
+  font-size: 22px;
+  font-style: italic;
+}
+
+.footer {
+  margin-top: auto;
+  background-color: black;
+  padding: 15px 0;
+  color: #e0e0e0;
+  font-size: 18px;
+}
+.footer_container {
+  max-width: 1900px;
+  margin: 0 auto;
+}
+.footer_row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer_h4 {
+  color: #e0e0e0;
+  font-size: 25px;
+  margin-bottom: 25px;
+  font-weight: 500;
+  padding-bottom: 4px;
+  padding-left: 36px;
+  display: inline-block;
+  border-bottom: 1px solid white;
+}
+.footer_li {
+  list-style: none;
+  text-align: center;
+  font-size: 14px;
+}
+.footer_a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #e0e0e0;
+  display: block;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+.footer_logo {
+  width: 50px;
+  height: 50px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 1024px) {
+  .img_logo {
+    width: 10%;
+  }
+}
+@media (max-width: 1024px) {
+  .main {
+    padding: 138px;
+  }
+  .main_fondo {
+    background-image: url(../assets/images/patenbrillo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
+@media (max-width: 1024px) {
+  .img_logo {
+    width: 10%;
+  }
+  main {
+    padding: 60px;
+  }
+  main .section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 15px;
+  }
+  main .section_img {
+    width: 47%;
+    height: auto;
+    margin-left: 124px;
+    margin-top: 88px;
+    border-radius: 22px;
+    transition: 0.3s ease-in-out;
+  }
+  main .section_p {
+    margin-left: 126px;
+    margin-top: 9px;
+  }
+}
+@media (max-width: 1024px) {
+  .main_section {
+    padding: 10px;
+    margin: 43;
+  }
+}
+@media (max-width: 1024px) {
+  .main_contacto {
+    padding: 3px;
+    margin: 70px;
+  }
+  .main_form {
+    padding: 0px;
+    margin: 105px;
+  }
+}
+@media (max-width: 1024px) {
+  .main_section {
+    padding: 0px;
+    text-align: left;
+  }
+}
+@media (max-width: 768px) {
+  .img_logo {
+    width: 10%;
+  }
+}
+@media (max-width: 768px) {
+  main {
+    padding: 60px;
+  }
+  main .section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 15px;
+  }
+  main .section_img {
+    width: 47%;
+    height: auto;
+    margin-left: 124px;
+    margin-top: 88px;
+    border-radius: 22px;
+    transition: 0.3s ease-in-out;
+  }
+  main .section_p {
+    margin-left: 126px;
+    margin-top: 9px;
+  }
+}
+@media (max-width: 768px) {
+  .main_section {
+    padding: 10px;
+    margin: 43;
+  }
+}
+@media (max-width: 768px) {
+  .main_contacto {
+    padding: 3px;
+    margin: 70px;
+  }
+  .main_form {
+    padding: 0px;
+    margin: 105px;
+  }
+}
+@media (max-width: 768px) {
+  .main_section {
+    padding: 82px;
+  }
+}
+@media (max-width: 768px) {
+  .footer_row {
+    text-align: center;
+  }
+  .footer_links {
+    width: 100%;
+    margin-bottom: 10%;
+  }
+}
+@media (max-width: 668px) {
+  .img_logo {
+    width: 10%;
+  }
+}
+@media (max-width: 668px) {
+  .main_tituloUno {
+    font-size: 50px;
+    margin-top: 15px;
+  }
+  .main_tituloDos {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 668px) {
+  main {
+    padding: 0px;
+  }
+  main .section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    margin-right: 10px;
+  }
+  main .section_img {
+    width: 47%;
+    height: auto;
+    margin-left: 152px;
+    margin-top: 88px;
+    border-radius: 22px;
+    transition: 0.3s ease-in-out;
+  }
+  main .section_p {
+    margin-left: 6px;
+    margin-top: 25px;
+    font-size: 12px;
+    text-align: center;
+    font-size: 15px;
+  }
+}
+@media (max-width: 668px) {
+  .main_section {
+    padding: 40px;
+    margin-bottom: 10px;
+    font-size: 11px;
+  }
+}
+@media (max-width: 668px) {
+  .main {
+    padding: 0px;
+    font-size: 11px;
+  }
+  .main_contacto {
+    padding: 5px;
+  }
+  .main .main_form {
+    padding: 10px;
+    margin: 10px;
+  }
+}
+@media (max-width: 668px) {
+  .main_section {
+    padding: 48px;
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+}
+@media (max-width: 580px) {
+  .img_logo {
+    width: 10%;
+  }
+}
+@media (max-width: 580px) {
+  .main_tituloUno {
+    font-size: 50px;
+    margin-top: 15px;
+  }
+  .main_tituloDos {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 580px) {
+  main {
+    padding: 0px;
+  }
+  main .section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    margin-right: 10px;
+  }
+  main .section_img {
+    width: 47%;
+    height: auto;
+    margin-left: 152px;
+    margin-top: 88px;
+    border-radius: 22px;
+    transition: 0.3s ease-in-out;
+  }
+  main .section_p {
+    margin-left: 6px;
+    margin-top: 25px;
+    font-size: 12px;
+    text-align: center;
+    font-size: 15px;
+  }
+}
+@media (max-width: 580px) {
+  .main_section {
+    padding: 40px;
+    margin-bottom: 10px;
+    font-size: 11px;
+  }
+}
+@media (max-width: 580px) {
+  .main {
+    padding: 0px;
+    font-size: 11px;
+  }
+  .main_contacto {
+    padding: 5px;
+  }
+  .main .main_form {
+    padding: 10px;
+    margin: 10px;
+  }
+}
+@media (max-width: 580px) {
+  .main_section {
+    padding: 48px;
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+}
+@media (max-width: 580px) {
+  .footer {
+    font-size: 15px;
+  }
+  .footer .footer_container {
+    margin-right: 10px;
+  }
+}
+@media (max-width: 411px) {
+  .img_logo {
+    width: 10%;
+  }
+}
+@media (max-width: 411px) {
+  .main_tituloUno {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  .main_tituloDos {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 411px) {
+  main {
+    padding: 0px;
+  }
+  main .section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    margin-right: 10px;
+  }
+  main .section_img {
+    width: 47%;
+    height: auto;
+    margin-left: 112px;
+    margin-top: 88px;
+    border-radius: 22px;
+    transition: 0.3s ease-in-out;
+  }
+  main .section_p {
+    margin-left: 5px;
+    margin-top: 28px;
+    font-size: 12px;
+    text-align: center;
+  }
+}
+@media (max-width: 411px) {
+  .main_section {
+    padding: 40px;
+    margin-bottom: 10px;
+    font-size: 11px;
+  }
+}
+@media (max-width: 411px) {
+  .main {
+    padding: 0px;
+    font-size: 11px;
+  }
+  .main_contacto {
+    padding: 5px;
+  }
+  .main .main_form {
+    padding: 10px;
+    margin: 10px;
+  }
+}
+@media (max-width: 411px) {
+  .main_section {
+    padding: 48px;
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+}
+@media (max-width: 411px) {
+  .footer {
+    font-size: 15px;
+  }
+  .footer .footer_container {
+    margin-right: 10px;
+  }
+}
+@media (max-width: 320px) {
+  .img_logo {
+    width: 10%;
+  }
+}
+@media (max-width: 320px) {
+  .main_tituloUno {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  .main_tituloDos {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 320px) {
+  main {
+    padding: 0px;
+  }
+  main .section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    margin-right: 10px;
+  }
+  main .section_img {
+    width: 47%;
+    height: auto;
+    margin-left: 82px;
+    margin-top: 88px;
+    border-radius: 22px;
+    transition: 0.3s ease-in-out;
+  }
+  main .section_p {
+    margin-left: 15px;
+    margin-top: 25px;
+    font-size: 12px;
+    text-align: center;
+  }
+}
+@media (max-width: 320px) {
+  .main_section {
+    padding: 40px;
+    margin-bottom: 10px;
+    font-size: 11px;
+  }
+}
+@media (max-width: 320px) {
+  .main {
+    padding: 0px;
+    font-size: 11px;
+  }
+  .main_contacto {
+    padding: 5px;
+  }
+  .main .main_form {
+    padding: 10px;
+    margin: 10px;
+  }
+}
+@media (max-width: 320px) {
+  .main_section {
+    padding: 48px;
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+}
+@media (max-width: 320px) {
+  .footer {
+    font-size: 15px;
+  }
+  .footer .footer_container {
+    margin-right: 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

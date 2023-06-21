@@ -1,0 +1,22 @@
+.section {
+    @include cuadricula;
+
+    &_img {
+        width: 47%;
+        height: auto;
+        margin-left: 135px;
+        margin-top: 160px;
+        border-radius: 20px;
+        transition: 0.3s ease-in-out;
+    }
+
+    &_img:hover {
+        filter: opacity(1);
+        transform: scale(1.4);
+    }
+
+    &_p {
+        margin-left: 140px;
+        margin-top: 75px;
+    }
+}

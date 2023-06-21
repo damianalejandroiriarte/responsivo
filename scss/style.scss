@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Open+Sans:wght@700&display=swap');
+@import "./utilities/variables.scss";
+@import "./utilities/mixing.scss";
+@import "./base/reset";
+
+
+@import "./layout/header";
+@import "./layout/main-index";
+@import "./layout/mainProductos";
+@import "./layout/mainQuienesSomos";
+@import "./layout/mainContacto";
+@import "./layout/mainVentas";
+@import "./layout/footer";
+
+
+
+@import "./layout/responsive/1024-header";
+@import "./layout/responsive/1024-main";
+@import "./layout/responsive/1024-mainProducto";
+@import "./layout/responsive/1024-mainQuienesSomos";
+@import "./layout/responsive/1024-mainContacto";
+@import "./layout/responsive/1024-mainVenta";
+@import "./layout/responsive/768-header";
+@import "./layout/responsive/768-mainProducto";
+@import "./layout/responsive/768-mainQuienesSomos";
+@import "./layout/responsive/768-mainContacto";
+@import "./layout/responsive/768-mainVenta";
+@import "./layout/responsive/768-footer";
+@import "./layout/responsive/668-header";
+@import "./layout/responsive/668-main";
+@import "./layout/responsive/668-mainProductos";
+@import "./layout/responsive/668-mainQuienesSomos";
+@import "./layout/responsive/668-mainContacto";
+@import "./layout/responsive/668-mainVenta";
+@import "./layout/responsive/580-header";
+@import "./layout/responsive/580-main";
+@import "./layout/responsive/580-mainProducto";
+@import "./layout/responsive/580-mainQuienesSomos";
+@import "./layout/responsive/580-mainContacto";
+@import "./layout/responsive/580-mainVenta";
+@import "./layout/responsive/580-footer";
+@import "./layout/responsive/411-header";
+@import "./layout/responsive/411-main";
+@import "./layout/responsive/411-mainPorductos";
+@import "./layout/responsive/411-mainQuienesSomos";
+@import "./layout/responsive/411-mainContacto";
+@import "./layout/responsive/411-mainVenta";
+@import "./layout/responsive/411-footer";
+@import "./layout/responsive/320-header";
+@import "./layout/responsive/320-main";
+@import "./layout/responsive/320-mainProductos";
+@import "./layout/responsive/320-mainQuienesSomos";
+@import "./layout/responsive/320-mainContacto";
+@import "./layout/responsive/320-mainVenta";
+@import "./layout/responsive/320-footer";
+
+

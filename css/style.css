@@ -228,7 +228,7 @@
 }
 @media (max-width: 768px) {
   .main_section {
-    padding: 10px;
+    padding: 0px;
     margin: 43;
   }
 }
@@ -239,12 +239,12 @@
   }
   .main_form {
     padding: 0px;
-    margin: 105px;
+    margin: 0px;
   }
 }
 @media (max-width: 768px) {
   .main_section {
-    padding: 82px;
+    padding: 0px;
   }
 }
 @media (max-width: 768px) {
